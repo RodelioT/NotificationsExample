@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                     notification.setTicker("Re:Driver - The quest have been updated!");   //For use with Android versions before Lollipop/5.0
                     notification.setContentTitle("Quest Updated!");
                     notification.setContentText("'Websec, Protector of Sites' has been slain! Collect your rewards!");
-                    notification.setWhen(System.currentTimeMillis());
+                    notification.setWhen(System.currentTimeMillis());                     //Time which shows in the notification
                     notification.setDefaults(Notification.DEFAULT_ALL);                   //Default sound, vibrate pattern, etc.
                     notification.setPriority(NotificationCompat.PRIORITY_HIGH);           //PRIORITY_HIGH pops up a message, vibrates, sound, etc. LOW doesn't pop up a message
 
